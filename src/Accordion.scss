@@ -1,0 +1,88 @@
+.accordion-root {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordion-header {
+    font-weight: 1.5em;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.accordion-header-button {
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+
+    &:hover {
+        background-color: #eff3f6;
+        transition: all 0.1s ease;
+    }
+}
+
+.accordion-icon-root {
+}
+
+.accordion-icon {
+    font-size: 2em;
+    color: #6a6c6e;
+    transition: all 0.2s ease;
+    margin-right: 1rem;
+    display: block;
+}
+
+.accordion-icon-expanded {
+    font-size: 2em;
+    color: #6a6c6e;
+    transition: all 0.2s ease;
+    margin-right: 1rem;
+    transform: rotate(180deg);
+    display: block;
+}
+
+.accordion-expanded-icon {
+    font-size: 2em;
+    color: #6a6c6e;
+    transition: all 0.2s ease;
+    margin-right: 1rem;
+    display: block;
+}
+
+.accordion-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordion-content {
+    transition: all 0.2s ease;
+    text-align: justify;
+    top: 0;
+    background-color: #fffcfc;
+    padding: 0 1rem;
+    opacity: 0; 
+    height: 0; 
+    display: none;
+}
+
+.accordion-content-expanded {
+    transition: all 0.2s ease;
+    text-align: justify;
+    top: 0;
+    background-color: #fffcfc;
+    padding: 0 1rem;
+    height: 100%;
+    overflow: auto;
+}
