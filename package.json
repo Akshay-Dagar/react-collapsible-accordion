@@ -1,7 +1,7 @@
 {
-  "name": "react-collapsible-accordion",
+  "name": "react-collapsible-accordion-accessible",
   "version": "1.0.0",
-  "description": "react-collapsible-accordion is a react component that allows you to expand or collapse any content that is present as it's child",
+  "description": "react-collapsible-accordion-accessible is a react component that allows you to expand or collapse any content that is present as it's child",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
