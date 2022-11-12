@@ -2,7 +2,7 @@ import * as React from "react";
 import { CSSProperties } from "react";          
 
 export interface IAccordionProps {
-    title: string;
+    title?: string;
     icon?: React.FC<IIconProps>;
     expandedIcon?: React.FC<IIconProps>;
     styles?: IAccordionStyleFunctionOrObject<IAccordionStyleProps, IAccordionStyles>;
